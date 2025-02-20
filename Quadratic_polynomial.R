@@ -133,7 +133,7 @@ ggplot(data_processed, aes(x = predictor, y = response)) +
   annotate("text", x = 600, y = 1.8, label = paste("Ymax =", round(Ymax_Value, 2)), color = "black", size = 5) +
   annotate("text", x = 600, y = 1.75, label = paste("Mmax =", round(Mmax, 2)), color = "black", size = 5) +
   annotate("text", x = 600, y = 1.7, label = paste("LDS =", round(lds, 2)), color = "black", size = 5) +
-  geom_text(aes(y = response + response_se, label = c("abcd", "abc", "a", "a", "ab", "abc", "abcde", "cde", "bcde", "cde", "e", "de", "a")), vjust = 0.1, color = "black", size = 6) +
+  geom_text(aes(y = response + response_se, label = c("a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a", "a")), vjust = 0.1, color = "black", size = 6) +
   theme_classic() +
   theme(
     axis.text = element_text(size = 10, color = "black"),
