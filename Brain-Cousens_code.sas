@@ -1,6 +1,5 @@
 /*
    SAS Code for Brain-Cousens Model Fitting Using PROC NLMIXED
-   Author: Your Name
    Description: This script fits the Brain-Cousens non-linear model using PROC NLMIXED.
                 It includes data preparation, model fitting, and weighting by the inverse
                 of the variance (1/y^2). The script fits four variations of the model.
