@@ -8,10 +8,12 @@ Comparing the performance of different statistical models for analyzing hormesis
 Repository Contents
 1. Cedergreen Model
 File: cedergreen_model.sas
+
 y = c + (((d - c) + (f * exp(-1/xa)) / (1 + exp(b * ln(x/e))))
 
 2. Brain-Cousens Model
 File: brain_cousens_model.sas
+
 y = c + (((d - c) + f * x) / (1 + exp(b * ln(x/e))))
 
 3. Quadratic Polynomial Model
