@@ -1,6 +1,5 @@
 /* 
    SAS Code for Non-Linear Mixed Effects Modeling with Weighted Least Squares
-   Author: Your Name
    Description: This script performs non-linear mixed effects modeling using PROC NLMIXED.
                 It includes data preparation, model fitting, and estimation of parameters.
                 The model is weighted by the inverse of the variance (1/SD^2).
