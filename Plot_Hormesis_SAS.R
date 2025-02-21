@@ -104,7 +104,7 @@ data_processed <- data.frame(
       axis.title.y = element_text(size = 14, face = "bold")
     ) +
     labs(
-      x = expression("Predictor Variable (" * mu * "M)"),  # Replace with your predictor label
+      x = "Predictor Variable (units)",  # Replace with your predictor label
       y = "Response Variable (units)"  # Replace with your response label
     )
   
