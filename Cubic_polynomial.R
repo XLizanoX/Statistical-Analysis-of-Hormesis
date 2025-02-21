@@ -120,7 +120,7 @@ ggplot(data_processed, aes(x = predictor, y = response)) +
     axis.title.y = element_text(size = 14, face = "bold")
   ) +
   labs(
-    x = expression("Predictor Variable (" * mu * "M)"),
+    x = "Predictor Variable (units)",
     y = "Response Variable (units)"
   )
 
